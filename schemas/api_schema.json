@@ -1,0 +1,31 @@
+[
+  {
+    "route": "/analytics/{page}",
+    "is_route_dynamic": "true",
+    "method": "post",
+    "request_body": {
+      "page_views": "number",
+      "impressions": "number",
+      "clicks": "number"
+    },
+    "response": "None"
+  },
+  {
+    "route": "/analytics/{page}",
+    "is_route_dynamic": "true",
+    "method": "get",
+    "request_body": "None",
+    "response": {
+      "page_views": "number",
+      "impressions": "number",
+      "clicks": "number"
+    }
+  },
+  {
+    "route": "/analytics",
+    "is_route_dynamic": "false",
+    "method": "get",
+    "request_body": "None",
+    "response": "not_provided"
+  }
+]
