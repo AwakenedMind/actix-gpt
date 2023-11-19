@@ -1,3 +1,5 @@
+Generate a unit-tested backend in Rust using the fastest web framework Actix with AI agents communicating with each other using GPT-4
+
 ### Demo
 
 Generates a full unit-tested actix backend using AI agents with gpt-4 model.
